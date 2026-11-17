@@ -15,5 +15,18 @@ Devices used different chips and operating systems. A C/C++ program had to be re
 ### The Idea: Write Once, Run Anywhere
 
 Compile once into portable bytecode. Any device with a Java Virtual Machine (JVM) can run it — no rewrite needed.
+import java.util.Scanner;
+public class conditional {
+    public static void main(String[] args){
+        Scanner obj = new Scanner(System.in);
+        System.out.println("Enter a number: ");
+        int a=obj.nextInt();
+        int b=obj.nextInt();
+   if(a<=b)
 
-Main Concept: Write Once, Run Anywhere (WORA).
+    {
+        System.out.println("condition is true");
+    }
+    
+}
+      
