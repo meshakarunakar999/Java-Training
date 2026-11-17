@@ -12,4 +12,102 @@ public class conditional {
     }
     
 }
-      
+        Nested If :
+Syntax:
+if (condition1) {
+    if (condition2) {
+        // Statements
+    }
+}
+Program:
+
+import java.util.Scanner;
+
+class NestedIf {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter first number: ");
+        int a = sc.nextInt();
+
+        System.out.print("Enter second number: ");
+        int b = sc.nextInt();
+
+        if (a > 0) {
+            if (b > 0) {
+                System.out.println("Both numbers are positive");
+            }
+        }
+
+        sc.close();
+    }
+}
+         Switch Case:
+Syntax:
+
+switch (expression) {
+    case value1:
+        // Statements
+        break;
+
+    case value2:
+        // Statements
+        break;
+
+    case value3:
+        // Statements
+        break;
+
+    default:
+        // Default statements
+}
+Program:
+
+import java.util.Scanner;
+
+class SwitchDemo {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter a number (1-7): ");
+        int n = sc.nextInt();
+
+        switch (n) {
+            case 1:
+                System.out.println("Monday");
+                break;
+
+            case 2:
+                System.out.println("Tuesday");
+                break;
+
+            case 3:
+                System.out.println("Wednesday");
+                break;
+
+            case 4:
+                System.out.println("Thursday");
+                break;
+
+            case 5:
+                System.out.println("Friday");
+                break;
+
+            case 6:
+                System.out.println("Saturday");
+                break;
+
+            case 7:
+                System.out.println("Sunday");
+                break;
+
+            default:
+                System.out.println("Invalid Number");
+        }
+
+        sc.close();
+    }
+} 
+
