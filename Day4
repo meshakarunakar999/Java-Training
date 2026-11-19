@@ -64,3 +64,29 @@ endsWith() -> str.endsWith("Reddy")
 8.split() -> str.split(",")
 9. join() -> str.join("1", str1)
 10. valueOf() -> str.valueOf(3)
+   TYPES OF CLASSES :
+1.concrete class
+2.Abstract class 
+3.Final class
+4.Static Nested class
+5.Inner class
+6.Local class
+7.Anonymous class
+8.Enum class
+9.Interface class
+
+
+   1.concerete class: A regular class that can be used to create the objects 
+types of constructors:
+1.Default/non-arguments
+2.prarameter/arguments
+3.copy constructor 
+
+    Types of Modifiers
+1.Acces modifiers -public,private,default,protected
+2.Non Acces modifier-Static,final,abstract,synchornized,volatile,transient
+
+ **Functions**
+with return type
+without return type   
+
