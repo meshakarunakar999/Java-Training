@@ -1,1 +1,49 @@
+------------------------------STRING PROGRAM-----------------------
+import java.util.*;
 
+class Strings {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        String str = sc.nextLine();
+
+        String o = new String("hi");
+        System.out.println(o + " " + str);
+
+        String o1 = new String("linges");
+
+        for (int i = 0; i < o1.length(); i++) {
+            System.out.println(o1.charAt(i));
+        }
+
+        System.out.println("Length: " + o1.length());
+        System.out.println("Uppercase: " + o1.toUpperCase());
+        System.out.println("Lowercase: " + o1.toLowerCase());
+        System.out.println("Trim: " + o1.trim());
+
+        sc.close();
+    }
+}
+->>output:
+jaswanth
+hi jaswanth
+l
+i
+n
+g
+e
+s
+Length: 6
+Uppercase: LINGES
+Lowercase: linges
+Trim: linges
+
+***INSPECT- length(), charAt(),isEmpty(),isBlank()
+-> Etract by index:
+subString()  -> str.subString(0,4)
+indexof()  -> str.indexof()
+
+*****compare****
+equals() -> str.equals(str)
+compareTo() -> str.compareTo(str)
