@@ -47,3 +47,20 @@ indexof()  -> str.indexof()
 *****compare****
 equals() -> str.equals(str)
 compareTo() -> str.compareTo(str)
+
+**Find
+contains() -> str.contains("@")
+Startswith() -> str.startsWith("L")
+endsWith() -> str.endsWith("Reddy")
+
+**Transform
+1. trim() -> str.trim()
+2. strip() -> str.trip()
+3. concate() ->  str.concate("HOW")
+4.repeat() -> str.repeat(3)
+5. replace() -> str.replace('a','o')
+6. replaceall() -> str.replaceall()
+7. replaceFirst() -> str.replaceFirst("h")
+8.split() -> str.split(",")
+9. join() -> str.join("1", str1)
+10. valueOf() -> str.valueOf(3)
